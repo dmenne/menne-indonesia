@@ -1,0 +1,42 @@
+.c10k {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: arial
+}
+.c10w {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.c10wB {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.c11wB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.c11b {
+	FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: arial
+}
+.c11b2 {
+	FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: arial
+}
+.c11k {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: arial
+}
+.c12k {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial
+}
+.c12kb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial
+}
+.c12gb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #006600; FONT-FAMILY: arial
+}
+.c12wb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.c14ob {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffcc00; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #006600; FONT-FAMILY: arial
+}
+.titledetail {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #006600; FONT-FAMILY: arial
+}

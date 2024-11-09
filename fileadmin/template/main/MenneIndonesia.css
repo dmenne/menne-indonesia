@@ -1,0 +1,300 @@
+/* menne-indonesia table-less edition */
+body {
+	background: #FCFCF8;
+	color: #6F3B15;
+	font-family: "Trebuchet MS", "Bitstream Vera Sans", verdana, lucida, arial, helvetica, sans-serif;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+#container{
+	background: #FCFCF8;
+	border-style: none; 
+	border-width: 2px 1px 1px 1px;
+	color: #6F3B15;
+	margin: 3px auto;
+	padding: 0px 10px 0 10px;
+	position: relative;
+	text-align: left;
+	width: 860px;
+}
+
+#pageHeader{
+	background: url(batik2a.gif) no-repeat top left;
+	height: 70px;
+	text-align: left;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 5px 0 0 0;
+	text-align: left;
+}
+
+
+/* Trick from http://www.webmasterworld.com/forum83/1725.htm */
+#container:after{
+	clear: both;
+	content: " ";
+	display: block;
+	font-size: 1px;
+	line-height: 1px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	background: url(footer.gif) repeat-x;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+#lMenuSection{
+	float: left;
+	font-size: 12px;
+	left: 0;
+	margin: 0px 0 0 0px;
+	width: 200px;
+}
+
+acronym{
+	text-decoration:underline;
+	cursor:help;
+}
+/* content */
+#content {
+	clear: right;
+	float: right;
+	font-size: .8em;
+	width: 660px;
+}
+
+/* content */
+#colcontent {
+	float: left;
+	font-size: .8em;
+	text-align: left;
+}
+
+ul#colcontent{
+	list-style-type: circle;
+}
+
+.col img{
+	border: 2px solid Black;
+	}
+
+.imgfloat {
+	border: 2px solid Black;float:left; margin:5px 5px;
+}
+
+#col1{
+	clear: left;
+	float: left;
+	margin: 5px 5px 0 0;
+	width: 260px;
+}
+
+#col2,#col3 {
+	border-left: 2px solid;
+	float: left;
+	margin: 0 5px 0 0;
+	padding-left: 10px;
+	width: 270px;
+}
+
+#titles{
+	left: 260px;
+	position: absolute;
+	top: 5px;
+}
+
+h1#mainTitle {
+	font-size: 12px;
+	margin: 5px 0 0 0;
+	text-align: left;
+}
+
+h2#subTitle {
+	font-size: 18px;
+	margin: 10px 0 0 0;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1em;
+	margin: 6px 0 0 0;
+}
+
+#wMenu {
+	float: right;
+	font-size: 14px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#wMenu img{
+	border: none;
+}
+
+#wannMenu {
+	clear: right;
+	float: right;
+	font-size: 14px;
+	margin: 5px 0 0 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.smaller_it{
+	color: #743D14;
+	font-size: 0.8em;
+	font-style: italic;
+}
+   
+#serif, .serif{
+	color: #63331F;
+	font: 1em "Times New Roman","Times",serif;
+}
+   
+ 
+p {
+	margin-bottom: 0.3em;
+	margin-top: 0;
+}
+
+#colNormal {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#colNormal img {
+	border-color: #000000;
+	border-style: solid;
+	border-width: 3px;
+	float: left;
+}
+
+#colNormal table{
+	border-collapse: collapse;
+}
+
+#textColTrudel, #textColDieter {
+	float: left;
+	margin: 0px 10px 10px 1px;
+	text-align: left;
+	width:600px; /* Default width */
+}
+
+#textColTrudel img, #textColDieter img{
+	float: left;
+	margin: 0px 5px 10px 0px;
+}
+
+/* general links */
+a:link,a:visited {
+	background: transparent;
+	color: #703F0E;
+	text-decoration: none;
+}
+
+a:hover {
+	background: transparent;
+	font-weight: bold;
+}
+
+a:active {
+	background: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#content a:link,#colcontent a:link,
+#content a:visited,#colcontent a:visited {
+	font-weight: bold;
+}
+  
+#content a:hover,#colcontent a:hover, 
+#content a:active,#colcontent a:active {
+	background: transparent;
+	color: #000080;
+	font-weight: bold;
+}
+
+#lMenu {
+	float: left;
+	margin: 5px 0 0 0;
+}
+
+#lMenu ul{
+	list-style-type: none;
+}
+
+#lMenu a:hover {
+	color: #000080;
+}
+
+/* level 1, normal state (NO) */
+.lMenu-level1-no {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+/* level 1, active state (ACT) */
+.lMenu-level1-act {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*  level 2, normal state (NO) */
+.lMenu-level2-no {
+	padding-left: 20px;
+}
+
+/*  level 2, active state (ACT) */
+.lMenu-level2-act {
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+/* Back/Forward Menus */
+#lBack a,#lForward a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+	height:40px;
+	line-height: 20px;
+	font-size:12px;
+}
+
+#lBack a {
+	background: url("prior1.gif") no-repeat;
+}
+
+#lForward a {
+	background: url("next1.gif") no-repeat;
+}
+
+#lForward a:hover {
+	background: url("next2.gif") no-repeat;
+	color: #000080;
+}
+
+#lBack a:hover {
+	background: url("prior2.gif") no-repeat;
+	color: #000080;
+}
+
+#map {
+	position: absolute;
+	top: -100px;
+	visibility: hidden;
+	z-index: 1000;
+}
+
