@@ -1,2 +1,2 @@
-# menne-indonesia
-Website menne-indonesia.de
+# https//menne-indonesia.de
+Static web site 
